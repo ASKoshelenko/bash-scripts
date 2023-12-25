@@ -1,0 +1,11 @@
+[ Asserts Samples ], 1..7 tests
+-----------------------------------------------------------------------------------
+not ok  1  expecting command finishes successfully (bash way), 7ms
+not ok  2  expecting command finishes successfully (the same as above, bats way), 27ms
+ok  3  expecting command fails (the same as above, bats way), 23ms
+ok  4  expecting command prints exact value (bash way), 10ms
+ok  5  expecting command prints exact value (the same as above, bats way), 27ms
+ok  6  expecting command prints some message (bash way), 12ms
+ok  7  expecting command prints some message (the same as above, bats way), 26ms
+-----------------------------------------------------------------------------------
+5 (of 7) tests passed, 2 tests failed, rated as 71.43%, spent 136ms
